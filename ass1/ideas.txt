@@ -1,0 +1,26 @@
+ASSIGNMENT REQUIREMENTS
+past.html -> should describe your experiences with computing so far (eg:mention
+ your HSC experience, past work experience etc)
+future.html -> should describe what you want to do with computing in the future.
+comments.html -> read the assignment spec!
+s
+you must have atleast
+--> 5 css classes and 1 css id.
+--> 1 div and 1 span tag per page
+--> 1 table, 1 list(any type) and 1 image within the entire assignment submission
+max screen size 1024X768
+
+
+I want to add buttons on my website
+ADD BUTTONS
+<button type="button" onclick="alert('Hello world!')">Click Me!</button>
+#---- "click me" is the button name nd when you click on it, it displays "hello wo
+
+sea blue  color hex -> #00947
+
+------> I want to add borders to my link buttons later <-------DONT FORGET!
+
+
+ASK RYANHEISE
+1. <meta name="viewport" content="width=device-width, initial-scale=1.0">
+/////////what is this for?
