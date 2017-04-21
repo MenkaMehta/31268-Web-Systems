@@ -1,0 +1,99 @@
+﻿VIM TUTOR COMMANDS
+
+CURSOR MOVING COMMANDS
+h → leftwards
+k → upwards
+l → rightwards
+j → downwards
+
+EXITING COMMANDS
+:q! → exits the editors discarding any chnages you’ve made
+:wq → save and exit
+
+DELETING COMMANDS
+x → to delete character under the cursor
+dw→ to delete a word
+d$ → to delete to the end of the line.
+de → end of the current word
+dd → delete the whole line
+
+From the above we figure out the ON OPERATORS and the Motions.
+Therefore, d in the above commands is the operator while (w,$,e), these are 
+the motions.
+
+…………..using count to delete more
+Format: delete number motion 
+eg d4w → delete 4 words from where the cursor is pointing atm.
+     2dd → delete 2 lines from the cursor
+
+UNDO AND REDO COMMAND
+u→ used to undo stuffs
+U → bring back stuffs to their original state
+CTRL -R → redo command
+
+TEXT EDITING 
+i → writing texts into the file
+A → append texts – move to the end of the line
+
+USING COUNT FOR  A MOTION
+2w →move the cursor two words forward
+3e → move the cursor to the end of the third word forward
+0 → to move the cursor to the start of the line
+
+COPY AND PASTE
+y → copy text (y means yank)
+p → paste it
+
+THE SELECT AND PUT/PASTE COMMAND
+v- used to select a character
+V- used to select a whole line.
+p → put/paste the stuffs after deletion
+eg dd a line and take it where it is supposed to be put or pasted
+
+
+
+
+
+THE REPLACE COMMAND
+r → type r on the character to be replaced,
+       then type the right character that should be there.
+Another way to replace is:
+Go to the word to be replaced type capital R and replace the word, then press escape button.
+
+
+
+THE CHANGE OPERATOR
+eg lunw instead of line
+- put your cursor on u and type ce followed by (ine).
+After typing ce, you will automatically get into the insert mode.
+ 
+Format: c number motion
+motions: w- word  and $ -end of line
+
+CURSOR LOCATION AND FILE STATUS
+CTRL -G → show current location in the file and file status
+G→ move to the bottom of the file
+gg → move to the start of the file
+number g → takes you to the number line
+
+SEARCH COMMAND
+1./ followed by the word/char to be searched → press ENTER
+2. for moving into the same searched word in the file type n
+3. to search for the ame word in the opposite direction press N
+CTRL – o to go back to start.
+
+MATCHING PARENTHESES SEARCH
+{} or () or []
+put the cursor on the first opening bracket and then press (shift%) it will take you to the corresponding closing bracket.
+
+THE SUBSTITUTE COMMAND
+:s/old/new/g → to substitute ‘new’ for ‘old’
+eg 
+:s/thee/the → will only change the first occurrence of “thee” in the line
+:s/thee/the/g → addin g flag change all occurrence of “thee”
+
+THE OPEN COMMAND
+o → press o to open  a new line in the file in the insert mode
+
+
+
