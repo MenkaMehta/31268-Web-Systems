@@ -1,14 +1,4 @@
-<!--  past.html describes your expreriences with computing so far (eg mention your HSC experience, past work experience, etc)
-My experience with computers:
-since young I always had a hands on with computers. My dad owns a small internet cafe service that provides customers with internet and computer using services
-and I normally used to help out there and learn stuffs from there. At that time we had a cathoderay tube pc in our house that was a pc fior playing games. so me and
-my younger brother played GTA in it and other games.
 
-2007- I first did my official computer course and learnt Ms excel, Ms word, and ....etc
-2008 - 2011, I started taking computer studies at school. At start it was boring learning more of the theory stuffs on how computers were invented and blablabla...
-2011- I topped in my National Exams and so I was gifted my first laptop that I use till today :-)
-2017- After six years it doesnt look the same as 2011, its quite old now, but I still love it.
--->
 <html>
 <head>
     <!-- <title> Menka @ Web Systems UTS  </title> -->
@@ -31,15 +21,15 @@ my younger brother played GTA in it and other games.
 
         <div class = "header">
 
-            <h1> <center>My Past Experience with computing devices</h1>
+            <h1 id = "past-text"> <center>Past</h1>
 
                 <!-- start: class nav -->
                 <div class = "nav">
                     <ul>
-                        <li><a href="index.html"> Home </a></li>
-                        <li class ="selected"><a  href="past.html"> Past </a></li>
-                        <li> <a href="future.html">Future </a></li>
-                        <li> <a href="comments.html">Comments </a></li>
+                        <li><a id = "index" href="index.html"> Home </a></li>
+                        <li id = "past"  class ="selected"><a  href="past.html"> Past </a></li>
+                        <li> <a  id = "future" href="future.html">Future </a></li>
+                        <li> <a  id = "comments" href="comments.html">Comments </a></li>
                     </ul>
 
                     <!-- LInks to other pages -->
@@ -48,23 +38,40 @@ my younger brother played GTA in it and other games.
 
             </div>
 
-            <div class = "content">
+            <div id = "past-text" class = "content">
                 <!-- <b><ins><i>Motivation </i></ins></b><br> -->
-                <h2> Hi! again </h2>
-                <p>My experience with computers is very rare and interesting.
-                My dad owned a small internet cafe and I used to help him there.</p>
-                <p>I grew up seeing my dad changing computers as shown below:</p>
+                <!-- <h2 align = "center"> Motivation</h2> -->
+                    <h2><u> Motivation </u></h2>
+                <p>Hi again! Since you are visiting this page means you are interested in knowing about my past
+                 experience with computing devices. My experience with computers started when I was a child. My dad
+                 owned a small internet cafe, therefore I grew up seeing different computing devices around me. While helping
+               my dad and the staff there, my motivation towards computing gadgets increased. I was happy as I was learning
+             more and  more each day I spent at the internet cafe.</p>
+                 <!-- <h2 align = "center">Experience</h2> -->
+                     <h2><u>Experience</u></h2>
+                     <p>The first computers I saw in the internet cafe were the computers with the cathode ray monitors as shown below.
+                     After some years, dad changed all computers to flat screen monitors. The following is the trend of computer changing I experienced.</p>
+
                 <h3><i>From Cathode Ray Tube Monitors,</i></h3>
-                <img alt = "CRT monitors" src = "CRT.png" >
+                <img id = "past1-imgs" alt = "CRT monitors" src = "CRT.png" >
                 <h3><i>to Flat Screen Monitors,</i></h3>
-                <img alt = "Flatscreen monitors" src = "flatscreen.png" >
-                <h3><i>till when I got my own laptop :-)</i></h3>
-                <img alt = "My laptop" src = "laptop.png" >
-            </div>
+                <img id = "past2-imgs" alt = "Flatscreen monitors" src = "flatscreen.png" >
+                <h3 ><i>till when I got my own laptop :-)</i></h3>
+                <img  id = "past3-imgs" alt = "My laptop" src = "laptop.png" >
+                <!-- <p> Click the following button to return to the top of the page  <a href="#">Top of Page </a></p>
+           -->
+                  </div>
 
 <!-- ......START FOOTER..... -->
         <div class = "footer">
             <ul>
+              <!-- way 1 -->
+                <!-- <li><a href="#">Top of Page </a></li> -->
+                <!-- way 2 -->
+                <!-- <li>|</li> -->
+                <!-- <li><a name="top" class="anchor"> </a>
+                <a href="#top">Top of Page</a></li>
+                <li>|</li> -->
                 <li>copyright &copy; 2017 Menka Mehta </li>
             </ul>
         </div>

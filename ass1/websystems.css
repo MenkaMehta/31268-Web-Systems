@@ -1,32 +1,103 @@
 .wrapper{
-    background-color: #0d0d0d;
+    /* old - background-color: #0d0d0d;*/
+    background-color: #262626;
+    left: 0px;
+    right: 0px;
 }
+
+span.imp-words{
+color:  #00b3b3;
+}
+
+
 .content{
     /*margin-left: 25px;
     margin-right: 25px;*/
     padding: 20px 20px 20px 20px;
+    /*added */
+    background-color: #0d0d0d;
 }
-.header{
-    background-color: #262626; /*grey*/
+
+/*table{
+  height: 100%;
+}*/
+/*th{
+  height: 50%;
+}*/
+/*td{
+  height: 100%;
+}*/
+
+
+#index {
+    /*background-color: #ff8c66*/
+    background-color: #ff8080;
+}
+
+#index-text {
+    color: #ff8080;
+}
+
+
+#past{
+    /*background-color: #b3ff66; 8040ff #E0B880;*/
+    background-color: #aa55aa;
+}
+
+#past-text{
+    /*background-color: #b3ff66;*/
+    /*color: #d699ff;*/
+    color: #aa55aa;
+}
+#future{
+    /*background-color: #ff8c66;*/
+    background-color: #FFFF80;
+}
+
+#future-text{
+    /*background-color: #ff8c66;*/
+    /*color: #b3ff66; green best*/
+    color: #FFFF80;
+}
+
+#comments{
+    background-color: #b3ff66;
+    /*background-color: #ff8080;*/
+}
+
+#comments-text{
+    color: #b3ff66;
 }
 
 h1{
-    color: #00b3b3; /*#00b3b3 sea blue colour -> my favourite*/
+    color: #00b3b3; /*light bright bule -color pallette*/
+     /*color: #00b3b3 sea blue colour -> my favourite*/
     text-align: center;
 }
+
+
 
 p{
     font-family: Verdana;
 }
 
 body{
-    color: #00b3b3;
+    color: #C5C6C7; /*whitish greyish- color pallette*/
+    /*color: #00b3b3 sea blue colour -> my favourite*/
+    background-color: #0d0d0d; /*greyish*/
+}
+
+#index-img{
+  float: left;
+  /*padding: 5px 5px 5px 5px;*/
+  padding-right: 10px;
 }
 
 .nav{
     color: blue;
     text-align: center;
 }
+
 
 ul li{
     display: inline;
@@ -40,19 +111,29 @@ div.nav li.selected a{
     padding: 8px 20px;
     text-align: center;
     text-decoration: none;
-    display:inline-block;;
+    display:inline-block;
+    width: 100px;
 
 }
 
-/*a is for future comment and home buttonlinks*/
+
+/*a is for past future comment and home buttonlinks*/
 a:link{
-    background-color: #00b3b3;
-    color : #03131e ;
+    background-color: #00b3b3 ;
+    color : #03131e; /*#03131e*/
     padding: 8px 20px;
     text-align: center;
     text-decoration: none;
     display:inline-block;
+    width: 100px;
+    /*border-style: solid;*/
+
+
+    /*border-style: solid;
+  border-color: #0000ff;
+  border-color: #ff0000 #0000ff;*/
 }
+
 a:visited{
     background-color: #00b3b3;
     color : #03131e;
@@ -60,24 +141,29 @@ a:visited{
     text-align: center;
     text-decoration: none;
     display:inline-block;
+      width: 100px;
 }
 
 a:hover{
-    background-color: white;
+    background-color: #ff8c66;
     text-decoration: underline;
+  width: 100px;
 }
+
 .footer{
-    background-color: #404040; /*grey*/
-    height: 35px;
+  /*fixed footer*/
+    background-color: #262626;
+    height: 40px;
+
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    /*position: relative;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;*/
+
     text-align: center;
+    color: #FA6775; /*bubble gum pink*/
 }
-
-
-
-
-/*.content{
-width: 200px
-float: right;
-background: lightblue;
-min-height:400px;
-}*/

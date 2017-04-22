@@ -1,67 +1,143 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Comments@ websystems UTS</title>
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <title>Comments@ websystems UTS</title>
 
-<meta name = "author" content = "Menka Mehta">
-<meta name = "description" content = "Web Sytems Assignment">
-<meta name = "keywords" content = "Menka Mehta, UTS-FEIT, Sydney">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- The above line adjusts viewing in different devices -->
-<link rel = "stylesheet" href = "websystems.css" type = "text/css" />
+  <meta name = "author" content = "Menka Mehta">
+  <meta name = "description" content = "Web Sytems Assignment">
+  <meta name = "keywords" content = "Menka Mehta, UTS-FEIT, Sydney">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- The above line adjusts viewing in different devices -->
+  <link rel = "stylesheet" href = "websystems.css" type = "text/css" />
 
-</head>
-<body>
-  <div class = "wrapper">
+  </head>
+  <body>
+    <div class = "wrapper">
 
-      <!-- start class header -->
-      <div class = "header">
-      <h1> <center>My Comments Page</h1>
+        <!-- start class header -->
+        <div class = "header">
+        <h1 id = "comments-text"> <center> Comments</h1>
 
-        <!-- start: class nav -->
-             <div class = "nav">
-                 <ul>
-                <li><a href="index.html"> Home </a></li>
-                  <li><a  href="past.html"> Past </a></li>
-                  <li> <a href="future.html">Future </a></li>
-                <li class ="selected"> <a href="comments.html">Comments </a></li>
-                </ul>
+          <!-- start: class nav -->
+               <div class = "nav">
+                   <ul>
+                  <li><a id = "index" href="index.html"> Home </a></li>
+                    <li><a id = "past"  href="past.html"> Past </a></li>
+                    <li> <a  id = "future" href="future.html">Future </a></li>
+                  <li id = "comments" class ="selected"> <a  href="comments.html">Comments </a></li>
+                  </ul>
 
-                  <!-- LInks to other pages -->
-                </div>
-                <!-- end class nav -->
-            </div>
-            <!-- end header class -->
-            <div class = "content">
-                <h2>Technicalities</h2>
-                <p> All the web pages in this website contain four main div classes:</p>
-                <ol>
-                    <li> class "<u>wrapper</u>" - This is the class that contain all the other
-                        <i>div</i> classes. </li>
-                    <li> class "<u>header</u>" - This is the class that contains the main heading of
-                    the page and the links that navigate to the other web pages</li>
-                    <li> class "<u>content</u>" - This is the class contains all the information
-                    required for that particular page. </li>
-                    <li> class "<u>footer</u>" - This is the class that is located at the bottom of the page
-                    representing the "copyright &copy; 2017 Menka Mehta" </li>
-                </ol>
-                    <!-- write what css selectors/IDS that were used in the developmentof website -->
-                    <!-- eg .class #id :active :hover  -->
-                    <h2>Aesthetics</h2>
-                    <!-- why was the color scheme chosen ?-->
-                    <h2>Accessibility</h2>
+                    <!-- LInks to other pages -->
+                  </div>
+                  <!-- end class nav -->
+              </div>
+              <!-- end header class -->
+              <div id = "comments-text" class = "content">
+                  <h2>Technicalities</h2>
+
+                  <!-- 1. Technicalities -> describe the structure of your website;
+                  eg
+                   the structure of your website,
+                  what CSS selectors/id's ets u used
+                  and why u used them -->
+                  <p> The general structure of each page in this website is as show below:</p>
+                  <img id = "comm-img" alt = "structure" src = "divs.png" >
+                  <p> Some important CSS selectors/id's were used in the development of this website. <br>
+                    The chart below briefly explains on the important selectors/id's used.</p>
+
+                    <!-- Table or chart -->
+
+                    <table  border = "1" >
+                      <tr>
+                        <th>Code</th>
+                        <th>Function</th>
+                      </tr>
+
+                      <tr>
+                        <td> .classname</td>
+                        <td> The .classname selector was used to provide same styles and feature
+                        to  <br> multiple pages in this website for eg .header was used to provide
+                         <br>the same  header style in all web pages (home,past,future and comments).</td>
+                      </tr>
+
+                      <tr>
+                        <td> #idname</td>
+                        <td> The #id selector was used to style elements with specific ids.
+                         For example  <br>#comments-text was used to provide specific color to my h1 text <br>
+                          and the same to  contents text.</td>
+                      </tr>
+
+                      <tr>
+                        <td> span.name</td>
+                        <td>The span.name selector is used to group inline-elements in the webpage.
+                          For eg <br> In this website, span.imp-words was used in the homepage to highlight <br>
+                          or differentiate the simportant words by giving them a bluish color.  </td>
+                      </tr>
+
+                      <tr>
+                        <td> a:link</td>
+                        <td>The a:link selector was used to provide specific style to the normal
+                          and unvisited <br>links in this website.</td>
+                      </tr>
+
+                      <tr>
+                        <td> a:visited</td>
+                        <td> The a:visited selector was used to provide specific style to the visited links.</td>
+                      </tr>
+
+                      <tr>
+                        <td> a:hover</td>
+                        <td> The a:hover was used to provide specific styles to the links(buttons) when the
+                        user <br> hovers the mouse over it. </td>
+                      </tr>
+                    </table>
+
+                    <!-- 2. Aesthetics ->
+                    how users should perceive your page (about half page)
+                    Perceive means become aware or concious of something, come to realise or understand
+                    what effects you were trying to achieve (abt half a page) -->
+                      <h2>Aesthetics</h2>
+                      <p>This is a simple designed website that is made for my web systems assignment.
+                      It has all features and styles that would attract both aged and young people, especially
+                    today's young generation.
+                    The colourscheme chosen is a combination of light neon colors on the
+                        darkbackground. The chosen colors are among the famous colours liked by most
+                      people which will attract more users.  This website contains a user friendly design
+                   that has been achieved by the usage of attractive colours on different pages eg pink,
+                 purple, yellow and green.  </p>
+
+                 <p>The navigation bar at the top of the page and the center of the header class makes use
+                 of the active and hover selectors. The link buttons are initially given different colors such as
+               pink, purple, yellow and green. When the mouse hovers on the link-buttons the text within
+            the button, get underlined and when the user presses a button, then the current page's link-button changes
+           it's colour to blue. </p>
+
+           <!-- when you add the top link, write about it here -->
+                      <h2>Accessibility</h2>
+                      <!-- 3. Accecibility
+                      eg how you made your website usable by disabled users       -->
+                    <p>All images in this website have been given <<i>alt</i>> attribute, therefore the users who cannot
+                    see or are colorblind , can get alternative information in the place of the image.</p>
+
+                    <p> On each page of this website, a <i>viewport metatag</i> has been configured with width=device-width.
+                    This allows adjustment in viewing the website in any screen size of the device it is being viewed on.
+                  This means the website can be viewed on a small screen like a mobile phone screen or normal laptop screen,
+                as well as the large computer monitor screens.</p>
+
+                <p>This site has been tested in different browsers like Internet explorer, Mozilla Firefox and Google Chrome.
+                It is great that it displayed right for all the browsers it was tested on.</p>
 
 
-            </div>
+              </div>
 
-            <!-- ......START FOOTER..... -->
-            <div class = "footer">
-                <ul>
-                    <li>copyright &copy; 2017 Menka Mehta </li>
-                </ul>
-            </div>
-            <!-- ......END FOOTER..... -->
+              <!-- ......START FOOTER..... -->
+              <div class = "footer">
+                  <ul>
+                      <li>copyright &copy; 2017 Menka Mehta </li>
+                  </ul>
+              </div>
+              <!-- ......END FOOTER..... -->
 
-</div>
-</body>
-</html>
+  </div>
+  </body>
+  </html>

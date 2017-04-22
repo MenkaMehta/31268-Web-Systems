@@ -23,4 +23,74 @@ sea blue  color hex -> #00947
 
 ASK RYANHEISE
 1. <meta name="viewport" content="width=device-width, initial-scale=1.0">
-/////////what is this for?
+/////////what is this for? doneeee
+
+
+RYANS ADVISE
+div main
+{
+background
+color
+margin-left: 10%;
+margin-right: 10%;
+}
+
+# google CSS-Tricks They have a good mobile view settings.
+# google search color scheme generator
+# css navigation bar <hover>
+# search vertical and horizontal navigation bar in css
+# css fluid layout
+vim backspace not working on rerun
+ You can only change the widht and height of the block elements
+
+ visual mode  v
+ line visual mode V
+ block visual mode ctrl + v
+ shift right: >
+ shift left: >
+
+ try checking on
+ design school.canva.com/////////nice
+
+FOR ASSIGNMENT
+FOLDERS
+WEBSYSTEMS
+INDEX,HTML
+
+From the first index.html we link the websystems/index.html.
+
+In your link blocks and hover this makes the buttons the same size ones.
+ //display ; block;
+// width; 60;
+
+Text in my website to the right
+Floating images:
+
+
+impact/accent color:  blue......
+
+
+
+
+
+COMMENTS PAGE
+-----> is divided into three sections
+TECHNICALITIES
+AESTHETICS
+ACCESSIBILITY
+
+
+1. Technicalities -> describe the structure of your website;
+eg
+--- the structure of your website,
+ ----what CSS selectors/id's ets u used
+-------and why u used them
+
+2. Aesthetics ->
+----how users should perceive your page (about half page)
+Perceive means become aware or concious of something, come to realise or understand
+----what effects you were trying to achieve (abt half a page)
+
+3. Accecibility--->
+eg how you made your website usable by disabled users
+---->RH colour schemes attracting users

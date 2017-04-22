@@ -4,7 +4,7 @@
 <head>
     <title> Menka @ Web Systems UTS</title>
 
-    <meta name = "author" content = "Menka Mehta">
+   <meta name = "author" content = "Menka Mehta">
     <meta name = "description" content = "Web Sytems Assignment">
     <meta name = "keywords" content = "Menka Mehta, UTS-FEIT, Sydney">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,17 +18,17 @@
         <!-- class wrapper is for full page -->
 
         <!-- start class header -->
-        <div class = "header">
+        <div  class = "header">
 
-            <h1> Welcome to Menka's  Homepage</h1>
+            <h1 id = "index-text"> Home </h1>
 
             <!-- start: class nav -->
             <div class = "nav">
                 <ul>
-                    <li  class ="selected" ><a href="index.html"> Home </a></li>
-                    <li><a  href="past.html"> Past </a></li>
-                    <li> <a href="future.html">Future </a></li>
-                    <li> <a href="comments.html">Comments </a></li>
+                    <li  id = "index" class ="selected" ><a href="index.html"> Home </a></li>
+                    <li><a  id = "past" href="past.html"> Past </a></li>
+                    <li> <a  id = "future" href="future.html">Future </a></li>
+                    <li> <a   id = "comments" href="comments.html">Comments </a></li>
                     <!-- LInks to other pages -->
                 </ul>
             </div>
@@ -36,16 +36,24 @@
         </div>
         <!-- end class header -->
 
-        <div class = "content">
-            <h2 align = "left">Hello People!</h2>
-            <img alt = "picture" src = "homepage1.png" >
-            <p>Hi! my name is Menka Mehta. A Software Engineering Student at University of Technology Sydney.</p>
-            <p>Click this button to visit my university's homepage
-                <a href="http://www.uts.edu.au" target="_blank"> (UTS)</a> .</p>
-                <p>This website is created for an assignment in the subject 31268 - Web Systems.</p>
-                <p>In this website, I will be sharing my <u>past</u> experiences with computing
-                    devices, my goals for the <u>future</u> and <u>comments</u> about the technicalities
-                    of this site.</p>
+        <div id = "index-text" class = "content">
+            <h2 align = "center"><u>Introduction</u></h2>
+            <img id = "index-img" alt = "picture" src = "homepage1.png" >
+            <p>Hi! my name is Menka Mehta. I am a current <u>ICT-Software Engineering</u> student at University of Technology Sydney.
+              UTS is one of the best universities in Australia and well known for industry focus, practise-based teaching and learning.
+              It prepares students to become global thinkers, leaders and innovators.</p>
+            <p>For more information about my university, please click on the button below. </p>
+                <p><a href="http://www.uts.edu.au" target="_blank"> (UTS)</a></p>
+                <p>This website was created for an assignment in the subject 31268 - Web Systems. It contains information about my <span class="imp-words">past </span>
+                   experiences with computing devices, my goals for the <span class="imp-words">future</span> and <span class="imp-words">comments</span> about the aesthetics, accessibility aspects and  technical aspects of the site.
+                 Inorder to navigate to the other pages of my website, please click on the buttons named Past, Future and Comments above :-)</p>
+                 <h2 align = "left"><u>Education</u></h2>
+                 <ol>
+                   <li>2008-2011 Lake Secondary and High School School</li>
+                   <li>2012-2014 Lake Secondary and High School School</li>
+                   <li>2015-current ICT Software Engineering at UTS</li>
+                 </ol>
+
                 </div>
                 <!-- end div class content -->
 
