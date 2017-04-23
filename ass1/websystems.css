@@ -18,6 +18,7 @@ color:  #00b3b3;
     background-color: #0d0d0d;
     /*font-family: serif; helvetica*/
     font-family: helvetica;
+    padding-bottom: 40px;
 
 }
 
@@ -26,13 +27,20 @@ color:  #00b3b3;
     background-color: #ff8080;
 }
 
-#index-text {
+#index-h1{
     color: #ff8080;
 }
 
+#index-text{
+    color: #ff8080;
+}
 
 #past{
     background-color: #aa55aa;
+}
+
+#past-h1{
+    color: #aa55aa;
 }
 
 #past-text{
@@ -47,11 +55,19 @@ color:  #00b3b3;
     color: #FFFF80;
 }
 
+#future-h1{
+    color: #FFFF80;
+}
+
 #comments{
     background-color: #b3ff66;
 }
 
 #comments-text{
+    color: #b3ff66;
+}
+
+#comments-h1{
     color: #b3ff66;
 }
 
@@ -65,6 +81,7 @@ h1{
 
 h2{
   font-family: sans-serif;
+  text-align: left;
 }
 
 p{
@@ -113,6 +130,9 @@ ul li{
   color: #FA6775;
 }
 
+table, td, th
+{ border: 1px solid #404040; }
+
 div.nav li.selected a{
 
     background-color: #008080;
@@ -157,13 +177,13 @@ div.nav li.selected a{
 .footer{
 
     background-color: #262626;
-    height: 40px;
-
+    height: 50px;
     position: fixed;
     left: 0px;
     bottom: 0px;
     right: 0px;
-
     text-align: center;
     color: #FA6775; /*bubble gum pink*/
+    
+
 }
