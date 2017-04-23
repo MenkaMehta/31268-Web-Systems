@@ -94,3 +94,11 @@ Perceive means become aware or concious of something, come to realise or underst
 3. Accecibility--->
 eg how you made your website usable by disabled users
 ---->RH colour schemes attracting users
+
+CHECK!
+you must put comments on the graphics you downloaded from the internet. PUTTHE LINKS AS COMMENTS
+
+U MUST HAVE ATLEAST
+5 css classes and 1 id
+1 div and 1 span tag per page
+1 table 1 list and 1 img in the entire assignment
