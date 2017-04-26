@@ -9,6 +9,16 @@ span.imp-words{
 color:  #00b3b3;
 }
 
+/*temp-is for my first index page*/
+.temp{
+    text-align: center;
+    color: #FF4040;
+    font-size: 18px;
+}
+
+span.index-2{
+    color: #FF4040;
+}
 
 .content{
     /*margin-left: 25px;
@@ -19,7 +29,7 @@ color:  #00b3b3;
     /*font-family: serif; helvetica*/
     font-family: helvetica;
     padding-bottom: 40px;
-
+    font-size: 19px;
 }
 
 #index {
@@ -77,16 +87,19 @@ h1{
     text-align: center;
     font-family: sans-serif;
     font-weight: bold;
+    font-size: 35px;
 }
 
 h2{
   font-family: sans-serif;
   text-align: left;
+  font-size: 25px;
+  /*text-decoration: underline;*/
 }
 
-p{
+/*p{
     font-family: Verdana;
-}
+}*/
 
 body{
     color: #C5C6C7;
@@ -184,6 +197,4 @@ div.nav li.selected a{
     right: 0px;
     text-align: center;
     color: #FA6775; /*bubble gum pink*/
-    
-
 }
