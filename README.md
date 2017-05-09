@@ -1,4 +1,4 @@
 # 31268 - Web Systems
 # Year - 2017
-Assignment 1 -Menka's Website :-)
+Assignment 1 - Menka's Website :-)
 
