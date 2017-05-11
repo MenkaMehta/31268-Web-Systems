@@ -28,3 +28,7 @@ echo hello -> outputs -> hello
 head file  - outputs 10 first lines of the file
 tail file – outputs 10 last lines of the file
 
+asciinema program to record video
+
+// make sure you write the stuffs you learnt today
+
