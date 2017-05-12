@@ -32,3 +32,69 @@ asciinema program to record video
 
 // make sure you write the stuffs you learnt today
 
+Ryan Heise week8 tutorial
+
+1> put the standard output into something (a file)
+2> put the standard error into something (a file) 
+
+cal 1>&2 ---→ redirecting the output to standard error
+
+writing comments in bash syntax:
+start with # ------
+
+Shebang: #!/bin/bash
+Always start writing a bash program by keeping the above code in the first line.
+No space needed and should start exactly at the beginning of the line
+
+running a bash program: ./file.sh 
+
+################Overall week 7 and week 8 revision:
+1. HELLO PROGRAM -Ryan Heise
+
+#!/bin/bash
+echo -n "Hello, who are you? "
+read name
+echo "Hello, $name"
+echo -n "How old are you? "
+read age
+
+x=3 # no spaces here!
+
+if [ $age -gt 17 ] # spaces here required!!
+then
+    echo "Here's your beer!"
+else
+    echo "No beer for you!"
+fi
+
+#MY FIRST PROGRAM -Ryan Heise
+
+#!/bin/bash
+
+ls
+# print out the current date
+date
+whoami # print out my username
+#SWAP PROGRAM – Ryan Heise
+#!/bin/bash
+
+if [ $# -ne 2 ]
+then
+    echo "Usage: ./swap.sh word1 word2" 1>&2
+    exit 1
+fi
+
+echo $2 $1
+
+#VARIABLE PROGRAM – Ryan Heise
+#!/bin/bash
+
+x=3
+
+echo "x is $x"
+echo "1 is $1"
+echo "2 is $2"
+echo "3 is $3"
+echo "* is $*"
+echo "# is $#"
+
