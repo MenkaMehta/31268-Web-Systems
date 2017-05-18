@@ -36,7 +36,8 @@ Ryan Heise week8 tutorial
 
 1> put the standard output into something (a file)
 2> put the standard error into something (a file) 
-
+echo "* is $*" -> prints all arguments
+echo "# is $#" -> prints all number of arguments
 cal 1>&2 ---→ redirecting the output to standard error
 
 writing comments in bash syntax:
