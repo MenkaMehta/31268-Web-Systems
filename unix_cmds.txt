@@ -5,7 +5,8 @@ wc -m: count characters
 wc -w: count words delimited by white space characters /new line characters
 wc -l: count lines
 
-tail: delivers the last part of the file.
+head: delivers the first part of the file ......first 10 lines
+tail: delivers the last part of the file..........last 10 lines
 tail -n: n=number of starting locations in the file is measured in lines instead of bytes. Eg tail -n3  means 3 last lines.
 
 Ls: list the contents of the directory
