@@ -89,5 +89,9 @@ eg
 THE OPEN COMMAND
 o → press o to open  a new line in the file in the insert mode
 
-
+FILE PERMISSIONS 
+NEVER TO FORGET
+rwx -> 421
+rwx -> read write execute
+chmod 711 means I can "rwx", group can "x" and public can "x"
 
