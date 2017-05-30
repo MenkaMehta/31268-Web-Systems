@@ -80,11 +80,11 @@ MATCHING PARENTHESES SEARCH
 {} or () or []
 put the cursor on the first opening bracket and then press (shift%) it will take you to the corresponding closing bracket.
 
-THE SUBSTITUTE COMMAND
-:s/old/new/g → to substitute ‘new’ for ‘old’
+THE SUBSTITUTE COMMAND IN VIM
+:%s/old/new/g → to substitute ‘new’ for ‘old’
 eg 
-:s/thee/the → will only change the first occurrence of “thee” in the line
-:s/thee/the/g → addin g flag change all occurrence of “thee”
+:%s/thee/the → will only change the first occurrence of “thee” in the line
+:%s/thee/the/g → addin g flag change all occurrence of “thee”
 
 THE OPEN COMMAND
 o → press o to open  a new line in the file in the insert mode
