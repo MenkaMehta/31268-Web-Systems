@@ -1,4 +1,6 @@
-﻿PIPING AND WILDCARDS
+clear the terminal screen (ctrl + L)
+
+PIPING AND WILDCARDS
 
 WC: displays a count of lines, words and characters
 wc -m: count characters
