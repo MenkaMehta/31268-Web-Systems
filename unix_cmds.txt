@@ -1,4 +1,6 @@
-clear the terminal screen (ctrl + L)
+(ctrl + L) clear the terminal screen 
+(ctrl + c) kill a command that has taken over the screen
+(ctrl + d) to log off
 
 PIPING AND WILDCARDS
 
